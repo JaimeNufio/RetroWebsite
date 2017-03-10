@@ -2,23 +2,27 @@
 	background-color:black;
 }
 .heading{
+	margin: 5px;
 	border-style: dashed;
 	border-width: 2px;
 	padding:4px;
 }
 
 .generalText{
-	margin: 10px;
 	color: #ff9d00;
 	font-family: "Courier";
 }
 
+
+
 .heading.generalText{}
 
-.myLink{
-	text-decoration: none;
+p>a{
+	text-decoration: none ;
+	line-height:1.5;
 	color: #ffca0c;
 }
+
 
 .generalText.myLink{
 }
@@ -30,5 +34,5 @@
 	margin: auto;
 	width: 50%;
 	padding:10px;
-
+	text-decoration: none;
 }
