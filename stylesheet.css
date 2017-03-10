@@ -1,0 +1,34 @@
+*{
+	background-color:black;
+}
+.heading{
+	border-style: dashed;
+	border-width: 2px;
+	padding:4px;
+}
+
+.generalText{
+	margin: 10px;
+	color: #ff9d00;
+	font-family: "Courier";
+}
+
+.heading.generalText{}
+
+.myLink{
+	text-decoration: none;
+	color: #ffca0c;
+}
+
+.generalText.myLink{
+}
+
+
+#image{
+	font-size:50%;
+	text-align:center;
+	margin: auto;
+	width: 50%;
+	padding:10px;
+
+}
