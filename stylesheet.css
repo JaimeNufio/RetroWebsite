@@ -7,10 +7,7 @@ a{
 	text-decoration: none ;
 	line-height:1;
 	color: #ffca0c;
-}
-
-a:hover{
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 .boxit{
@@ -30,8 +27,16 @@ a:hover{
 	text-decoration: bold;
 }
 
+.link{
+
+}
+
 .boxit > .title{
 	
+}
+
+.title > .link{
+
 }
 
 .words{
@@ -55,11 +60,11 @@ a:hover{
 #logo{
 	flex-grow:1;
 	font-size:95%;
-	text-align:center;
+	text-align:left;
 }
 
 #links{
-	width: 500px;
+	width: 600px;
 	text-align: justify;
 }
 
